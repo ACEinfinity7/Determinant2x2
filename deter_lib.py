@@ -7,7 +7,7 @@ def deter2x2(matrix):
     minus
     the upper-right element times the lower left element
     """
-    result = 0
+    result = (matrix[0][0]*matrix[1][1])-(matrix[0][1]*matrix[1][0])
 
     # TODO: calculate the determinant of the 2x2 matrix
 
